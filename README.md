@@ -12,7 +12,7 @@
 - [💻 Getting Started ](#-getting-started-)
   - [💪🏻 Setup](#-setup)
 - [👩🏽‍💻 Author ](#-author-)
-- [🔭🧑🏽‍🍳 Future Features ](#-future-features-)
+- [🔭 Future Features ](#-future-features-)
 - [🤝 Contributing ](#-contributing-)
 - [⭐️ Show your support ](#️-show-your-support-)
 - [📝 License ](#-license-)
@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭🧑🏽‍🍳 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add more functionalities using hooks like useState, useEffect.]**
 
