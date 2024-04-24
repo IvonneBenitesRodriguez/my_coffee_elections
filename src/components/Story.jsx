@@ -7,7 +7,7 @@ function Story() {
         <div>
             <h2 className='text-center font-bold text-2xl pb-3' style={{marginBottom: '1rem'}}>
                 Story of my virtual coffee shop</h2>
-            <p className='max-w-md mt-8 text-justify' style={{ marginRight: '2.5rem', marginLeft:'2.5rem'}}>
+            <p className='max-w-md mt-8 text-justify' style={{ marginRight: '2.5rem', marginLeft:'2.5rem', marginBottom:'2.5rem'}}>
             This virtual coffee shop was founded in 1997.
         It began with 3 friends who met each other in Spain.
         and their own mixtures of coffee. Now, 33 years after Bella Coffee sells
@@ -27,7 +27,7 @@ function Story() {
         a perfect choice.
             </p>
             <div className='flex justify-center'>
-                <img src={shop} alt='shop' className='mt-4 w-48 rounded-r-lg' />
+                <img src={shop} alt='shop' className='mt-8 w-48 rounded-r-lg' />
         </div>
        </div> 
     );
