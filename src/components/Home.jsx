@@ -1,14 +1,12 @@
-import React from 'react';
-import '../styles/main.css';
-import Navbar from './Navbar';
-
+import React from "react";
+import "../styles/main.css";
 
 function Home() {
-return (
-        <div className='flex'>
-            <a href="/">Home</a>
-        </div>
-    );
+  return (
+    <div className="flex">
+      <a href="/">Home</a>
+    </div>
+  );
 }
 
 export default Home;
