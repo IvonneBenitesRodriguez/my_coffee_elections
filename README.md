@@ -6,7 +6,7 @@
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction):  https://my-coffee-elections.vercel.app/](#-deployed-projectunder-construction--httpsmy-coffee-electionsvercelapp)
+    - [📍 Deployed project(under construction):  https://my-coffee-elections-oz47-a85tw5rr8.vercel.app/](#-deployed-projectunder-construction--httpsmy-coffee-elections-oz47-a85tw5rr8vercelapp)
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
@@ -24,7 +24,7 @@
 *My coffee elections webapp* repository is built using programming language named JavaScript but specifically in this case I used a framework named **React**. 
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
-#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections.vercel.app/</a>
+#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-oz47-a85tw5rr8.vercel.app/</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,9 +37,9 @@ I choose this framework since I want to put in practice a main principle named *
   </ul>
   </details>
   <details>
-  <summary>Tailwindcss📕</summary>
+  <summary>Materialui📕</summary>
     <ul>
-        <li><a href="https://tailwindcss.com/">Tailwindcss</a></li>
+        <li><a href="https://mui.com/material-ui/material-icons/?query=pinterest">Materialui</a></li>
     </ul>
     </details>
 
@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add more functionalities using hooks like useState, useEffect.]**
+- [ ] **[Add more functionalities and fix some logos size.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
