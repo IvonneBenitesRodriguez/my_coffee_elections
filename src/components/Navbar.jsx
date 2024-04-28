@@ -1,20 +1,41 @@
-import React from "react";
-import Home from "./Home";
-import Recipes from "./Recipes";
-import Contact from "./Contact";
-import "../styles/main.css";
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import Home from "../pages/Home";
+import Recipes from "../pages/Recipes";
+import Contact from "../pages/Contact";
+import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
+import ReorderIcon from "@mui/icons-material/Reorder";
+import logo from "../assets/logo.png";
 
 function Navbar() {
-    return (
-            <nav>
-                <ul className="flex justify-evenly text-lg pt-3">
-                    <Link to="/" className="flex justify-evenly"><Home /></Link>
-                    <Link to="/Recipes" className="flex justify-evenly"><Recipes /></Link>
-                    <Link to="/Contact" className="flex justify-evenly"><Contact /></Link>
-                </ul>
-            </nav>
-    );
+  const [openLinks, setOpenLinks] = useState(false);
+
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  };
+
+  return (
+    <div className="navbar">
+      <div className="leftSide" id={openLinks ? "open" : "close"}>
+        <img src={logo} style={{ width: "90px", height: "auto" }} />
+        <div className="hiddenLinks">
+          <Link to="/">Home</Link>
+          <Link to="/menu">Menu</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      </div>
+      <div className="rightSide">
+        <Link to="/">Home</Link>
+        <Link to="/menu">Menu</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <button onClick={toggleNavbar}>
+          <ReorderIcon />
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Navbar;
