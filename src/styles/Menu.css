@@ -48,6 +48,12 @@
   .menuItem p {
     margin-left: 20px;
   }
+
+  .menuItem span {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
   
   @media only screen and (max-width: 1300px) {
     .menuList {
