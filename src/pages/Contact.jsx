@@ -30,7 +30,7 @@ function Contact() {
           <input name="email" placeholder="Enter your email..." type="email" />
           <label htmlFor="message">Message</label>
           <textarea
-            rows="2"
+            rows="1"
             placeholder="Enter message..."
             name="message"
             required
