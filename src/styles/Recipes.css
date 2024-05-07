@@ -1,0 +1,12 @@
+.recipes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.recipes .recipeTitle {
+    font-family: cursive;
+    font-size: 60px;
+}
