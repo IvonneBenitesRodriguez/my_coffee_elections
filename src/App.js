@@ -1,10 +1,6 @@
 import "./styles/Navbar.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import logo from "./assets/logo.png";
-import Story from "./components/Story";
-import Newsletter from "./components/Newsletter";
-import Recipes from "./pages/Recipes";
 import Footer from "./components/Footer";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
