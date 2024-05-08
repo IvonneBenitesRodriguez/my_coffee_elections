@@ -6,6 +6,7 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Recipes from "./pages/Recipes";
 import Contact from "./pages/Contact";
+import Products from "./pages/Products";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/products" element={<Products />} />
       </Routes>
       <Footer />
 
