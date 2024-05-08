@@ -2,25 +2,27 @@ import React, { useState } from "react";
 import "../styles/Recipes.css";
 
 function Recipes() {
-  const [randomDogImage, setRandomDogImage] = useState(null);
+  const [randomHouse, setRandomHouse] = useState(null);
 
-  const fetchRandomDogImage = async () => {
+  const fetchRandomHouse = async () => {
     try {
-      const response = await fetch(`https://dog.ceo/api/breeds/image/random`);
+      const response = await fetch(
+        `https://anapioficeandfire.com/api/houses/378`
+      );
       if (!response.ok) {
         throw new Error("Network response was not ok today");
       }
       const data = await response.json();
-      const breeds = Object.keys(data.message);
-      const randomIndex = Math.floor(Math.random() * breeds.length);
-      const randomBreed = breeds[randomIndex];
-      const randomRecipe = {
-        strCategory: randomBreed,
-        strCategoryDescription: `A delightful recipe involving the ${randomBreed} breed.`,
-        strCategoryImage: randomBreed,
+      // const houses = Object.keys(data.message);
+      // const randomIndex = Math.floor(Math.random() * houses.length);
+      // const randomHouses = houses[randomIndex];
+      const randomHouse = {
+        name: randomHouse,
+        region: `${randomHouse} region.`,
+        words: randomHouse,
       };
 
-      setRandomRecipe(randomRecipe);
+      setRandomHouse(randomHouse);
     } catch (error) {
       console.error("Error fetching recipes:", error);
     }
@@ -35,15 +37,11 @@ function Recipes() {
         of tasty recipes you can use, only assure yourself to click in this
         button :
       </p>
-      <button onClick={fetchRandomDogRecipe}>Open me</button>
-      {randomRecipe && (
+      <button onClick={fetchRandomHouse}>Open me</button>
+      {randomHouse && (
         <div className="randomRecipe">
-          <h2>{randomRecipe.strCategory}</h2>
-          <p>{randomRecipe.strCategoryDescription}</p>
-          <img
-            src={randomRecipe.strCategoryImage}
-            alt={`A ${randomRecipe.strCategory} dog`}
-          />
+          <h2>{randomHouse.name}</h2>
+          <p>{randomHouse.region}</p>
         </div>
       )}
     </div>
