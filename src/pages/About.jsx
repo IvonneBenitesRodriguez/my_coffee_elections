@@ -10,8 +10,8 @@ function About() {
         style={{ backgroundImage: `url(${Shop})` }}
       ></div>
       <div className="aboutBottom">
-        <h1>About us</h1>
-        <p>
+        <h1 className="aboutTitle">About us</h1>
+        <p className="paragraphTitle">
           {" "}
           This virtual coffee shop was founded in 1997. It began with 3 friends
           who met each other in Spain. and their own mixtures of coffee. Now, 33
