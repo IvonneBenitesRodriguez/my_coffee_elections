@@ -6,7 +6,7 @@
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction):  https://my-coffee-elections-oz47-a85tw5rr8.vercel.app/](#-deployed-projectunder-construction--httpsmy-coffee-elections-oz47-a85tw5rr8vercelapp)
+    - [📍 Deployed project(under construction):  https://my-coffee-elections-udmy.vercel.app/recipes](#-deployed-projectunder-construction--httpsmy-coffee-elections-udmyvercelapprecipes)
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
@@ -25,7 +25,7 @@
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
 
-#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-oz47-a85tw5rr8.vercel.app/</a>
+#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-udmy.vercel.app/recipes</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
