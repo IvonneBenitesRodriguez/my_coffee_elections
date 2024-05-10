@@ -14,20 +14,22 @@
     width: auto;
     margin-left: 50px;
 }
-.headerContainer h1 {
+ h1.titleHome {
     justify-content: center;
     align-items: center;
     font-size: 90px;
     height: 60px;
     font-weight: 50;
     color: black;
+    margin-bottom: 45px;
 }
 
-.headerContainer p {
+ p.paragraphHome {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
     color: black;
+    margin-bottom: 20px;
 }
 
 .headerContainer button {
