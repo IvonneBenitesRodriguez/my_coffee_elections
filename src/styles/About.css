@@ -21,6 +21,8 @@
 }
 .aboutBottom p {
 width: 1200px;
+line-height: 30px;
+font-size: 18px;
 }
 .about .aboutBottom h1 {
     font-weight: 400;
@@ -30,4 +32,15 @@ width: 1200px;
     display: flex;
     justify-content: center;
     transform: translateY(-40px);
+    margin-bottom: 20px;
+}
+h1.aboutTitle{
+margin-top: 10px;
+font-family: cursive;
+}
+.aboutTop{
+    margin-bottom: 20px;
+}
+.paragraphTitle {
+    margin-top: 24px;
 }

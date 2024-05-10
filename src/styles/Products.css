@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ h3.apiTitle{
+    font-family: cursive;
+    font-size: 28px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.apiParagraph {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.apiImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 40px 10px;
+    border: none;
+}
+span.apiSpan {
+margin-left: 50%;
+font-style: italic;
+margin-bottom: 10px;
+}
