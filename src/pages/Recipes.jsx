@@ -1,28 +1,22 @@
+// import React, { useState } from "react";
 import React, { useState } from "react";
 import "../styles/Recipes.css";
 
 function Recipes() {
-  const [randomHouse, setRandomHouse] = useState(null);
+  const [randomRecipe, setRandomRecipe] = useState(null);
 
-  const fetchRandomHouse = async () => {
+  const fetchRandomRecipe = async () => {
     try {
       const response = await fetch(
-        `https://anapioficeandfire.com/api/houses/378`
+        `https://api.sampleapis.com/recipes/recipes`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok today");
       }
       const data = await response.json();
-      // const houses = Object.keys(data.message);
-      // const randomIndex = Math.floor(Math.random() * houses.length);
-      // const randomHouses = houses[randomIndex];
-      const randomHouse = {
-        name: randomHouse,
-        region: `${randomHouse} region.`,
-        words: randomHouse,
-      };
-
-      setRandomHouse(randomHouse);
+      const randomIndex = Math.floor(Math.random() * data.length);
+      const randomDish = data[randomIndex];
+      setRandomRecipe(randomDish);
     } catch (error) {
       console.error("Error fetching recipes:", error);
     }
@@ -32,16 +26,21 @@ function Recipes() {
     <div className="recipes">
       <h1 className="recipeTitle">Enjoy our recipes</h1>
       <p>
-        {""}
         For a small meeting with your friends, or a celebration, you have a tons
         of tasty recipes you can use, only assure yourself to click in this
-        button :
+        button:
       </p>
-      <button onClick={fetchRandomHouse}>Open me</button>
-      {randomHouse && (
+      <button onClick={fetchRandomRecipe}>Open me</button>
+      {randomRecipe && (
         <div className="randomRecipe">
-          <h2>{randomHouse.name}</h2>
-          <p>{randomHouse.region}</p>
+          <h2>{randomRecipe.title}</h2>
+          <p>{randomRecipe.cuisine}</p>
+          <span>{randomRecipe.mainIngredient}</span>
+          <img
+            src={randomRecipe.photoUrl}
+            width={"120px"}
+            alt={randomRecipe.title}
+          />
         </div>
       )}
     </div>
