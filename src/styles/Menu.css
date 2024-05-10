@@ -18,6 +18,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
+
+  div.menuList a {
+    text-decoration: none;
+  }
   
   /* MENU ITEM STYLING */
   
@@ -27,7 +31,11 @@
     height: 350px;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: black;
+
   }
+
   .menuItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
@@ -43,11 +51,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .menuItem h1,
   .menuItem p {
     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
+  
 
   .menuItem span {
     margin-left: 10px;
