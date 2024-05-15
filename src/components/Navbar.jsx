@@ -24,6 +24,7 @@ function Navbar() {
           <Link to="/about">About</Link>
           <Link to="/recipes">Recipes</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/events">Events</Link>
         </div>
       </div>
       <div className="rightSide">
@@ -32,6 +33,7 @@ function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/recipes">Recipes</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/events">Events</Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
