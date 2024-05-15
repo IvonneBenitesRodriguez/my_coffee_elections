@@ -6,7 +6,7 @@
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction):  https://my-coffee-elections-udmy.vercel.app/recipes](#-deployed-projectunder-construction--httpsmy-coffee-elections-udmyvercelapprecipes)
+    - [📍 Deployed project(under construction):  https://my-coffee-elections-4rc4.vercel.app/events](#-deployed-projectunder-construction--httpsmy-coffee-elections-4rc4vercelappevents)
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
@@ -24,8 +24,7 @@
 *My coffee elections webapp* repository is built using programming language named JavaScript but specifically in this case I used a framework named **React**. 
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
-
-#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-udmy.vercel.app/recipes</a>
+#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-4rc4.vercel.app/events</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
