@@ -9,4 +9,36 @@
 .recipes .recipeTitle {
     font-family: cursive;
     font-size: 60px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.btnRecipes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#f70776;
+    padding-right: 1.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-color: #f70776;
+    color: white;
+    text-align: center;
+}
+.randomRecipeTitle {
+margin-left: 25%;
+}
+.randomRecipeImage {
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.randomRecipeCategory{
+text-align: center;
+}
+span.randomingredient {
+    display: flex;
+    justify-content: center;
 }

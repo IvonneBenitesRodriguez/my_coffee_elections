@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Recipes from "./pages/Recipes";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
+import Events from "./pages/Events";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/recipes" element={<Recipes />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
       <Footer />
 
