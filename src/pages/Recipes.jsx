@@ -30,16 +30,21 @@ function Recipes() {
         of tasty recipes you can use, only assure yourself to click in this
         button:
       </p>
-      <button onClick={fetchRandomRecipe}>Open me</button>
+      <button onClick={fetchRandomRecipe} className="btnRecipes">
+        Open me
+      </button>
       {randomRecipe && (
         <div className="randomRecipe">
-          <h2>{randomRecipe.title}</h2>
-          <p>{randomRecipe.cuisine}</p>
-          <span>{randomRecipe.mainIngredient}</span>
+          <h2 className="randomRecipeTitle">{randomRecipe.title}</h2>
+          <p className="randomRecipeCategory">{randomRecipe.cuisine}</p>
+          <span className="randomingredient">
+            {randomRecipe.mainIngredient}
+          </span>
           <img
             src={randomRecipe.photoUrl}
-            width={"120px"}
+            width={"220px"}
             alt={randomRecipe.title}
+            className="randomRecipeImage"
           />
         </div>
       )}
