@@ -6,7 +6,7 @@ function Products() {
   const [posts, setPosts] = useState([]);
 
   const fetchProducts = async () => {
-    const res = await axios.get("https://api.sampleapis.com/coffee/hot");
+    const res = await axios.get("https://fake-coffee-api.vercel.app/api");
     console.log(res.data);
     setPosts(res.data);
     return res;
@@ -25,15 +25,21 @@ function Products() {
       <ul>
         {posts.slice(0, 10).map((post) => (
           <li key={post.id}>
-            <h3 className="apiTitle">{post.title}</h3>
+            <h3 className="apiTitle">{post.name}</h3>
             <p className="apiParagraph">{post.description}</p>
-            <img
-              src={post.image}
-              className="apiImage"
-              alt={post.title}
-              width={"140px"}
-            />
-            <span className="apiSpan">{post.ingredients}</span>
+
+            <span className="apiSpan">${post.price}</span>
+            <div className="apiInfo">
+              <img
+                src={post.image_url}
+                className="apiImage"
+                alt={post.title}
+                width={"340px"}
+              />
+            </div>
+            <span className="apiFlavor_profile">
+              Flavor:{post.flavor_profile}
+            </span>
           </li>
         ))}
       </ul>
