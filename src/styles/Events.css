@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1.eventsTitle {
+    margin-top: 4%;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    margin-bottom: 2%;
+}
+p.eventsParagraph{
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 4%;
+}
+div.imageEvent {
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+.imageEvent img {
+    border-radius: 30px;
+    width: 300px;
+}
