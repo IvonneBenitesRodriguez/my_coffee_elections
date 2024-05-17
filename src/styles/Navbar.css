@@ -96,7 +96,11 @@ body{
       display: inherit;
     }
   }
-  
+  @media screen and (min-width: 375px) {
+    button {
+      margin-top: 40px;
+    }
+  }
   @media only screen and (min-width: 600px) {
     .navbar .rightSide button {
       display: none;
