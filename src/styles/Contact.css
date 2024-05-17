@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .contact {
     width: 100%;
     height: 90vh;
@@ -78,4 +83,30 @@
     color: whitesmoke;
     font-size: 15px;
     cursor: pointer;
+  }
+  @media screen and (min-width: 375px) {
+    
+    div.navbar div.rightSide {
+      height: 56%;
+      padding-right: 0px;
+    }
+    div.leftSide {
+      background-image: none;
+      display: none;
+    }
+    div.contact.rightSide h1 {
+      font-size: 30px;
+      margin-top: 30px;
+    }
+    form input {
+      height: 32px;
+    }
+    form textarea {
+      height: 19px;
+    }
+    div.contact {
+      height: 73vh;
+      margin-bottom: 40px;
+      margin-top: 30px;
+    }
   }
