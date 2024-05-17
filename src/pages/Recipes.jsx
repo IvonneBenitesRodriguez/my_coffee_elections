@@ -36,8 +36,9 @@ function Recipes() {
       {randomRecipe && (
         <div className="randomRecipe">
           <h2 className="randomRecipeTitle">{randomRecipe.title}</h2>
-          <p className="randomRecipeCategory">{randomRecipe.cuisine}</p>
+          <p className="randomRecipeCategory">Origin:{randomRecipe.cuisine}</p>
           <span className="randomingredient">
+            Main Ingredient:
             {randomRecipe.mainIngredient}
           </span>
           <img
