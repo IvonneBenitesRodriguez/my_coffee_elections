@@ -52,6 +52,16 @@
     transition: 0.3s ease-in;
 }
 
+@media screen and (min-width: 375px) {
+    div.headerContainer h1.titleHome {
+        font-size: 29px;
+        margin-top: 40px;
+        margin-bottom: 27px;
+        height: 33px;
+    }
+}
+
+
 @media only screen and (max-width: 650px) {
     .home {
         justify-content: center;

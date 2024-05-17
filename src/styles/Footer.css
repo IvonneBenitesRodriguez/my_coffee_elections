@@ -18,3 +18,10 @@
 .footer p {
     color: white;
 }
+
+@media  screen and (min-width: 375px) {
+    .socialMedia svg {
+        margin: 15px;
+        font-size: 27px;
+    }
+}
