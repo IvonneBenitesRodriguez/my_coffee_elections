@@ -66,6 +66,19 @@
     font-size: 15px;
   }
   
+@media screen and (min-width: 375px) {
+  h1.menuTitle {
+    text-align: center;
+  }
+  div.menuItem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menuList {
+    width: 90vw;
+  }
+}
+
   @media only screen and (max-width: 1300px) {
     .menuList {
       grid-template-columns: 1fr 1fr;
