@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -100,13 +100,29 @@ body{
     button {
       margin-top: 40px;
     }
-  }
-  @media only screen and (min-width: 600px) {
-    .navbar .rightSide button {
-      display: none;
+    .leftSide {
+      position: relative;
     }
-  
     .hiddenLinks {
+      display: flex;
+      position: static;
+      background-color: transparent;
+      width: auto;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .rightSide {
+      display: flex;
+      align-items: center;
+    }
+    .rightSide a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: white;
+    }
+    .rightSide button {
       display: none;
     }
+
   }
+ 
