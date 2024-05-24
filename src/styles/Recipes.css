@@ -58,4 +58,7 @@ span.randomingredient {
         font-size: 17px;
         margin-left: 15px;
     }
+    .recipes h1.recipeTitle {
+        font-size: 52px;
+    }
 }

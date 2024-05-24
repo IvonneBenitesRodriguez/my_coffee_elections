@@ -77,6 +77,9 @@
   .menuList {
     width: 90vw;
   }
+  .menu h1.menuTitle{
+    font-size: 52px;
+  }
 }
 
   @media only screen and (max-width: 1300px) {
