@@ -15,7 +15,7 @@
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction):  https://my-coffee-elections-4rc4.vercel.app/events](#-deployed-projectunder-construction--httpsmy-coffee-elections-4rc4vercelappevents)
+    - [📍 Deployed project(under construction))
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
