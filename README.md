@@ -33,7 +33,7 @@
 *My coffee elections webapp* repository is built using programming language named JavaScript but specifically in this case I used a framework named **React**. 
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
-#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-4rc4.vercel.app/events</a>
+#### 📍 Deployed project(under construction):<br/> <a name="built-with"> https://my-coffee-elections-hxse-nlzojt8ra.vercel.app/contact</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,15 +46,16 @@ I choose this framework since I want to put in practice a main principle named *
   </ul>
   </details>
   <details>
-  <summary>Materialui📕</summary>
+  <summary>Styled Components Library📕</summary>
     <ul>
-        <li><a href="https://mui.com/material-ui/material-icons/?query=pinterest">Materialui</a></li>
+        <li><a href="https://styled-components.com/">Styled Components Library</a></li>
     </ul>
     </details>
 
 ### 📕 Key Features <a name="key-features"></a>
 - **[separation of concerns principle]**
-- **[tailwindcss]**
+- **[styled-components library]**
+- **[usage of React hooks}**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
