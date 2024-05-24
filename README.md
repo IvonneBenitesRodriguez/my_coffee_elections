@@ -1,6 +1,15 @@
 
 ## ☕️ My coffee elections WebApp  ☕️
 
+### Mobile version:<br/>
+<img width="318" alt="Screenshot 2024-05-23 at 11 12 56 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/c837ae1f-9986-443f-88e1-9d5bff30cb9c">
+
+### With a Sidebar: <br/>
+<img width="307" alt="Screenshot 2024-05-23 at 11 13 09 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/71323faa-f600-49f2-8d98-f7b29569da56">
+
+### Tematic: Coffee and meals'recipes <br/>
+<img width="319" alt="Screenshot 2024-05-23 at 11 13 33 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/a0fac53e-5c03-470a-a8bb-9fe40ce808a9">
+
 #### 📗 Table of Contents
 
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
