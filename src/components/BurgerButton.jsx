@@ -34,7 +34,7 @@ const Burger = styled.div`
     transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
     width: 100%;
     height: 4px;
-    transition-duration: 500ms;
+    transition-duration: 100ms;
   }
   .nav-icon-5 span:nth-child(1) {
     top: 0px;

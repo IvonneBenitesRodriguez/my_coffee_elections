@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import Home from "../pages/Home";
-import Recipes from "../pages/Recipes";
-import Contact from "../pages/Contact";
-import "../styles/Navbar.css";
+// import "../styles/Navbar.css";
 import styled from "styled-components";
 import BurgerButton from "../components/BurgerButton";
 import { Link } from "react-router-dom";
-import ReorderIcon from "@mui/icons-material/Reorder";
 import logo from "../assets/logo.png";
 
 function Navbar() {
@@ -19,7 +15,7 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <img src={logo} alt="Logo" style={{ width: "90px", height: "auto" }} />
+        <img src={logo} alt="Logo" style={{ width: "90px" }} />
         <div className={`links ${clicked ? "active" : ""}`}>
           <Link to="/" onClick={handleClick}>
             Home
@@ -52,10 +48,7 @@ function Navbar() {
 export default Navbar;
 
 const NavContainer = styled.nav`
-  img {
-    padding-left: 8%;
-  }
-  padding: 0 4rem;
+  padding: 55px 4rem;
   background-color: #0c317a;
   display: flex;
   align-items: center;
@@ -65,6 +58,7 @@ const NavContainer = styled.nav`
     text-decoration: none;
     margin-right: 1rem;
   }
+
   .links {
     position: absolute;
     top: -700px;
@@ -74,6 +68,7 @@ const NavContainer = styled.nav`
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    z-index: 6px;
     transition: all 0.5s ease;
     a {
       color: white;
@@ -84,29 +79,31 @@ const NavContainer = styled.nav`
       position: initial;
       margin: 0;
       a {
-        font-size: 1rem;
+        font-size: 2rem;
         color: white;
         display: inline;
       }
       display: block;
     }
   }
+
   .links.active {
     width: 100%;
     display: block;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 30%;
+    top: 18%;
     left: 0;
     right: 0;
     text-align: center;
+    z-index: 8;
     a {
       color: white;
-      margin-top: 1rem;
       font-size: 2rem;
     }
   }
+
   .burger {
     @media (min-width: 768px) {
       display: none;
@@ -125,10 +122,15 @@ const BgDiv = styled.div`
   transition: all 0.6s ease;
 
   &.active {
-    border-radius: 0 0 80% 0;
+    border-radius: 0 0 0 0;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 68%;
+    height: 112vh;
+    z-index:5;
+  }
+@media (min-width: 768px) {
+  display:none;
+}
   }
 `;
