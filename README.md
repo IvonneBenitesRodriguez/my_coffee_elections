@@ -15,7 +15,7 @@
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction))
+    - [📍 Deployed project]
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
@@ -54,7 +54,7 @@ I choose this framework since I want to put in practice a main principle named *
 
 ### 📕 Key Features <a name="key-features"></a>
 - **[separation of concerns principle]**
-- **[styled-components library]**
+- **[usage of styled-components library]**
 - **[usage of React hooks}**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
