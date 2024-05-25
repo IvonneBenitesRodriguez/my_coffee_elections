@@ -42,7 +42,7 @@ span.randomingredient {
     display: flex;
     justify-content: center;
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     h1.recipeTitle {
         text-align: center;
     }
@@ -52,7 +52,10 @@ span.randomingredient {
         margin-right: 3%;
     }
     .randomRecipeImage {
-        margin-left: 5%;
+        margin:auto;
+    }
+    h2 {
+        margin:auto;
     }
     .randomRecipeTitle {
         font-size: 17px;
