@@ -11,6 +11,7 @@ function Navbar() {
   const isScreenSmall = useMediaQuery('(max-width: 375px)');
 
   const handleClick = () => {
+  const media = windows.match();
     setClicked(!clicked);
   };
 
