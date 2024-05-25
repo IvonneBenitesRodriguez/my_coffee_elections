@@ -4,9 +4,11 @@ import styled from "styled-components";
 import BurgerButton from "../components/BurgerButton";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import useMediaQuery from '../hooks/useMediaQuery'; 
 
 function Navbar() {
   const [clicked, setClicked] = useState(false);
+  const isScreenSmall = useMediaQuery('(max-width: 375px)');
 
   const handleClick = () => {
     setClicked(!clicked);
@@ -16,7 +18,7 @@ function Navbar() {
     <>
       <NavContainer>
         <img src={logo} alt="Logo" style={{ width: "90px" }} />
-        <div className={`links`}>
+        <div className={`links ${isScreenSmall  && clicked ? "active" : ""}`}>
           <Link to="/" onClick={handleClick}>
             Home
           </Link>
