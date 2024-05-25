@@ -16,7 +16,7 @@ function Navbar() {
     <>
       <NavContainer>
         <img src={logo} alt="Logo" style={{ width: "90px" }} />
-        <div className={`links ${clicked ? "active" : ""}`}>
+        <div className={`links`}>
           <Link to="/" onClick={handleClick}>
             Home
           </Link>
