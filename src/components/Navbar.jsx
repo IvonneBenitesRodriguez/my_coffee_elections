@@ -9,6 +9,7 @@ function Navbar() {
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
+  const media = windows.match();
     setClicked(!clicked);
   };
 
@@ -16,7 +17,7 @@ function Navbar() {
     <>
       <NavContainer>
         <img src={logo} alt="Logo" style={{ width: "90px" }} />
-        <div className={`links`}>
+        <div className={`links ${clicked ? "active" : ""}`}>
           <Link to="/" onClick={handleClick}>
             Home
           </Link>
