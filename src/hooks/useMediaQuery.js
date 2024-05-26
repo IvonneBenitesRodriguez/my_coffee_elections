@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 
 function useMediaQuery(query) {
@@ -17,6 +18,7 @@ function useMediaQuery(query) {
 
     return () => {
       mediaQuery.removeEventListener("change", handleChange);
+
     };
   }, [query]);
 
