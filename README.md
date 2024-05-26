@@ -43,16 +43,11 @@ I choose this framework since I want to put in practice a main principle named *
   </ul>
   </details>
   <details>
-  <summary>Styled Components Library📕</summary>
-    <ul>
-        <li><a href="https://styled-components.com/">Styled Components Library</a></li>
     </ul>
     </details>
 
 ### 📕 Key Features <a name="key-features"></a>
 - **[separation of concerns principle]**
-- **[usage of styled-components library]**
-- **[usage of React hooks}**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

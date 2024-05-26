@@ -1,14 +1,16 @@
 import React, { useState } from "react";
-// import "../styles/Navbar.css";
 import styled from "styled-components";
 import BurgerButton from "../components/BurgerButton";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import useMediaQuery from '../hooks/useMediaQuery'; 
+
+import useMediaQuery from "../hooks/useMediaQuery";
 
 function Navbar() {
   const [clicked, setClicked] = useState(false);
-  const isScreenSmall = useMediaQuery('(max-width: 375px)');
+  const isScreenSmall = useMediaQuery("(max-width: 768px)");
+
+  console.log("isScreenSmall:", isScreenSmall);
 
   const handleClick = () => {
   const media = windows.match();
@@ -18,8 +20,9 @@ function Navbar() {
   return (
     <>
       <NavContainer>
-        <img src={logo} alt="Logo" style={{ width: "90px" }} />
+        <img src={logo} alt="Logo" style={{ width: "90px" }} />===
         <div className={`links ${isScreenSmall  && clicked ? "active" : ""}`}>
+
           <Link to="/" onClick={handleClick}>
             Home
           </Link>
@@ -63,16 +66,11 @@ const NavContainer = styled.nav`
   }
 
   .links {
-    position: absolute;
-    top: -700px;
     padding-right: 8%;
-    left: -2000px;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    z-index: 6px;
+    z-index: 6;
     transition: all 0.5s ease;
+    display: none;
     a {
       color: white;
       font-size: 2rem;
@@ -99,6 +97,7 @@ const NavContainer = styled.nav`
     top: 18%;
     left: 0;
     right: 0;
+    line-height: 2;
     text-align: center;
     z-index: 8;
     a {
@@ -122,17 +121,17 @@ const BgDiv = styled.div`
   width: 100%;
   height: 100%;
   z-index: -1;
-  transition: all 0.6s ease;
+  transition: all 0.1s ease;
 
   &.active {
-    border-radius: 0 0 0 0;
+    border-radius: 0 0 80% 0;
     top: 0;
     left: 0;
     width: 68%;
     height: 112vh;
     z-index:5;
   }
-@media (min-width: 768px) {
+@media (min-width: 768px){
   display:none;
 }
   }

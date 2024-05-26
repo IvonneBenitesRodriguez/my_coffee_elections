@@ -31,7 +31,7 @@ margin-left: 25%;
 .randomRecipeImage {
     display: flex;
     justify-content: center;
-    margin-left: 25%;
+   margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -52,10 +52,8 @@ span.randomingredient {
         margin-right: 3%;
     }
     .randomRecipeImage {
-        margin:auto;
-    }
-    h2 {
-        margin:auto;
+        margin: auto;
+        margin-bottom: 32px;
     }
     .randomRecipeTitle {
         font-size: 17px;
