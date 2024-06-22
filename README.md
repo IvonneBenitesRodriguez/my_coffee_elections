@@ -1,12 +1,20 @@
 
 ## ☕️ My coffee elections WebApp  ☕️
 
+### Mobile version:<br/>
+<img width="318" alt="Screenshot 2024-05-23 at 11 12 56 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/c837ae1f-9986-443f-88e1-9d5bff30cb9c">
+
+### With a Sidebar: <br/>
+<img width="307" alt="Screenshot 2024-05-23 at 11 13 09 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/71323faa-f600-49f2-8d98-f7b29569da56">
+
+### Tematic: Coffee and meals'recipes <br/>
+<img width="319" alt="Screenshot 2024-05-23 at 11 13 33 PM" src="https://github.com/IvonneBenitesRodriguez/my_coffee_elections/assets/22691013/a0fac53e-5c03-470a-a8bb-9fe40ce808a9">
+
 #### 📗 Table of Contents
 
 - [☕️ My coffee elections WebApp  ☕️](#️-my-coffee-elections-webapp--️)
     - [📗 Table of Contents](#-table-of-contents)
   - [☕️ My coffee elections WebApp ](#️-my-coffee-elections-webapp-)
-    - [📍 Deployed project(under construction): ](#-deployed-projectunder-construction-)
 - [🛠 Built With ](#-built-with-)
   - [Tech Stack ](#tech-stack-)
   - [📕 Key Features ](#-key-features-)
@@ -24,9 +32,6 @@
 *My coffee elections webapp* repository is built using programming language named JavaScript but specifically in this case I used a framework named **React**. 
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
-#### 📍 Deployed project(under construction):<br/> <a name="built-with"> 
-</a>
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -38,15 +43,11 @@ I choose this framework since I want to put in practice a main principle named *
   </ul>
   </details>
   <details>
-  <summary>CSS3 📕</summary>
-    <ul>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
     </ul>
     </details>
 
 ### 📕 Key Features <a name="key-features"></a>
 - **[separation of concerns principle]**
-- **[CSS3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
