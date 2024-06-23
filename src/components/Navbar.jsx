@@ -13,16 +13,15 @@ function Navbar() {
   console.log("isScreenSmall:", isScreenSmall);
 
   const handleClick = () => {
-  const media = windows.match();
     setClicked(!clicked);
   };
 
   return (
     <>
       <NavContainer>
-        <img src={logo} alt="Logo" style={{ width: "90px" }} />===
-        <div className={`links ${isScreenSmall  && clicked ? "active" : ""}`}>
+        <img src={logo} alt="Logo" style={{ width: "90px" }} />
 
+        <div className={`links ${isScreenSmall && clicked ? "active" : ""}`}>
           <Link to="/" onClick={handleClick}>
             Home
           </Link>
@@ -129,10 +128,10 @@ const BgDiv = styled.div`
     left: 0;
     width: 68%;
     height: 112vh;
-    z-index:5;
+    z-index: 5;
   }
-@media (min-width: 768px){
-  display:none;
-}
+
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
