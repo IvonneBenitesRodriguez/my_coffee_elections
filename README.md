@@ -32,18 +32,30 @@
 *My coffee elections webapp* repository is built using programming language named JavaScript but specifically in this case I used a framework named **React**. 
 I choose this framework since I want to put in practice a main principle named **separation of concerns**, therefore I created a folder named **components** where I placed each one of my components which are going to be used in my main file named App.js.<br/>
 
+## Deployment link <a name="deployment-link"></a>
+https://my-coffee-elections-attempt-h1slak9f3.vercel.app/products
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>React📕</summary>
+<summary>REACTJS📕</summary>
   <ul>
     <li><a href="https://react.dev/">React</a></li>
   </ul>
   </details>
   <details>
+      <summary>CSS3</summary>
+      <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
     </ul>
+    </details>
+    <details>
+        <summary>Deployment site used: VERCEL</summary>
+        <ul>
+            <li><a href="https://vercel.com/">Vercel</a></li>
+        </ul>
     </details>
 
 ### 📕 Key Features <a name="key-features"></a>
